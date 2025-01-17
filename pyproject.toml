@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chip-8emulator"
+version = "0.1.0"
+description = ""
+authors = ["ventura94 <arianventura94@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chip_8emulator"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.6.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
